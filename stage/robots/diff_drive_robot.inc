@@ -2,9 +2,9 @@ define laser ranger
 (
   sensor
   (
-    range_max 6.5
-    fov 58.0
-    samples 640
+    range [0 30]
+    fov 300
+    samples 1440
   )
   # generic model properties
   color "black"

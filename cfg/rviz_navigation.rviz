@@ -5,6 +5,8 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
+        - /Status1
+        - /Map1
       Splitter Ratio: 0.605095983
     Tree Height: 562
   - Class: rviz/Selection
@@ -25,7 +27,7 @@ Panels:
     Experimental: false
     Name: Time
     SyncMode: 0
-    SyncSource: LaserScan
+    SyncSource: ""
 Toolbars:
   toolButtonStyle: 2
 Visualization Manager:
@@ -55,7 +57,7 @@ Visualization Manager:
       Draw Behind: false
       Enabled: true
       Name: Map
-      Topic: /map
+      Topic: /map_merge/map
       Unreliable: false
       Use Timestamp: false
       Value: true
@@ -297,7 +299,7 @@ Visualization Manager:
   Global Options:
     Background Color: 255; 255; 255
     Default Light: true
-    Fixed Frame: map
+    Fixed Frame: robot_0/map
     Frame Rate: 30
   Name: root
   Tools:
@@ -318,7 +320,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 16.0150318
+      Distance: 20.0892563
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.0599999987
         Stereo Focal Distance: 1
@@ -354,5 +356,5 @@ Window Geometry:
   Views:
     collapsed: true
   Width: 1215
-  X: 530
-  Y: 43
+  X: 728
+  Y: 284

@@ -40,27 +40,6 @@ floorplan
 diff_drive_robot
 (
   pose [ 0.500 2.000 0.000 51.566 ]
-  name "robot_0"
+  name "robot_1"
   color "red"
 )
-
-diff_drive_robot
-(
-  pose [ 1.146 1.073 0.000 54.431 ]
-  name "robot_1"
-  color "purple"
-)
-
-diff_drive_robot
-(
-  pose [ 2.061 0.634 0.000 48.701 ]
-  name "robot_2"
-  color "green"
-)
-
-#diff_drive_robot
-#(
-#  pose [ 2.0 2.0 0.0 0.0 ]
-#  name "robot_3"
-#  color "blue"
-#)
