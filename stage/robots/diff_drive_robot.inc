@@ -2,7 +2,7 @@ define laser ranger
 (
   sensor
   (
-    range [0 30]
+    range [0 100]
     fov 300
     samples 1440
   )
